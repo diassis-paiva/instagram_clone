@@ -24,7 +24,7 @@ export function OnboardingScreen({ navigation }: any) {
 
         <View style={styles.contentButtons}>
           <TouchableOpacity
-            onPress={() => navigation.navigate("Sign")}
+            onPress={() => navigation.navigate("Login")}
             style={styles.buttonLogin}
           >
             <Text style={styles.textButtonLogin}>Log in</Text>
